@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   web:
-    image: nahid0002/node-todo-app-cicd:latest
+    image: devopsvmr/node-todo-app-cicd:latest
      # build: .
     ports:
-      - "8000:8000"
+      - "5000:5000"
